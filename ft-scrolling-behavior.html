@@ -85,7 +85,7 @@ limitations under the License.
                 }
 
                 // Calculate and set the scroller's height
-                if (this.clientWidth !== 0)  // Is this necessary? Why?
+                if (this.clientHeight !== 0)  // Is this necessary? Why?
                 {
                     const newHeight = this._calculateScrollerHeight(scroller);
                     scroller.style.height = newHeight + "px";
@@ -95,12 +95,16 @@ limitations under the License.
 
         _calculateScrollerWidth: function(scroller)
         {
-            throw new Error("_calculateScrollerWidth not implemented")
+            // Default to full width. This makes sense when the element has no siblings,
+            // or it and its siblings are laid out vertically. Override in the class that mixes in this behavior.
+            return this.clientWidth;
         },
 
         _calculateScrollerHeight: function(scroller)
         {
-            throw new Error("_calculateScrollerHeight not implemented")
+            // Default to full height. This makes sense when the element has no siblings,
+            // or it and its siblings are laid out horizontally. Override in the class that mixes in this behavior.
+            return this.clientHeight;
         },
 
         _onWheel: function(event)
