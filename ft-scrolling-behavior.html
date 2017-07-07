@@ -19,13 +19,16 @@ limitations under the License.
 
 <script>
 
+    // Make sure the "FileThis" namespace exists
+    window.FileThis = window.FileThis || {};
+
     /**
      * `ft-scrolling-behavior`
      * A behavior that helps with scrolling of elements.
      * @demo demo/index.html
-     * @polymerBehavior FtScrollingBehavior
+     * @polymerBehavior FileThis.ScrollingBehavior
      */
-    FtScrollingBehavior = {
+    FileThis.ScrollingBehavior = {
 
         listeners: {
             'iron-resize': '_onIronResize'
