@@ -1,6 +1,6 @@
 # Project configuration
 NAME=ft-scrolling-behavior
-VERSION=0.0.3
+VERSION=0.0.4
 LOCAL_PORT=3503
 GITHUB_USER=filethis
 
