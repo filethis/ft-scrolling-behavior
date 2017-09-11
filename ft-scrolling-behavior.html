@@ -86,14 +86,18 @@ limitations under the License.
                 if (this.clientWidth !== 0)  // Is this necessary? Why?
                 {
                     var newWidth = this._calculateScrollerWidth(scroller);
-                    scroller.style.width = newWidth + "px";
+                    var adjustWidth = (newWidth >= 0);
+                    if (adjustWidth)
+                        scroller.style.width = newWidth + "px";
                 }
 
                 // Calculate and set the scroller's height
                 if (this.clientHeight !== 0)  // Is this necessary? Why?
                 {
                     var newHeight = this._calculateScrollerHeight(scroller);
-                    scroller.style.height = newHeight + "px";
+                    var adjustHeight = (newHeight >= 0);
+                    if (adjustHeight)
+                        scroller.style.height = newHeight + "px";
                 }
             }.bind(this));
         },
