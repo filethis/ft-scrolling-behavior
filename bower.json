@@ -3,7 +3,7 @@
   "description": "A behavior that helps with scrolling of elements.",
   "main": "ft-scrolling-behavior.html",
   "dependencies": {
-    "ft-element-demo": "filethis/ft-element-demo#^1.0.13",
+    "ft-element-demo": "filethis/ft-element-demo#^1.0.14",
     "polymer": "Polymer/polymer#1.9 - 2"
   },
   "devDependencies": {
