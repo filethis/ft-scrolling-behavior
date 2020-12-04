@@ -1,7 +1,7 @@
 {
   "description": "A behavior that helps with scrolling of elements.",
-  "name": "filethis/ft-scrolling-behavior",
-  "version": "filethis/1.0.19",
+  "name": "ft-scrolling-behavior",
+  "version": "1.0.19",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
