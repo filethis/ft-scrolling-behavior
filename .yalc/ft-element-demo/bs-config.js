@@ -21,13 +21,12 @@ module.exports = {
         }
     },
     "files": [
-        "*.js",
         "*.html",
         "*.css",
         "demo/*.html",
         "demo/*.css",
-        "demo/*.js",
-        "test/*.html"
+        "test/*.html",
+        "bower_components/**/*.html"
     ],
     "watchEvents": [
         "change"

@@ -238,10 +238,6 @@ npm-clean-packages:  ## Install all NPM packages specified in package.json file,
 yalc-publish-package:  ## Publish this project's package to a local Yalc package repository.
 	@yalc publish
 
-.PHONY: yalc-unpublish-package
-yalc-unpublish-package:  ## Unpublish this project's package from local Yalc package repository.
-	@yalc installations clean ${NAME}
-
 
 #------------------------------------------------------------------------------
 # Bower
