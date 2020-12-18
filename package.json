@@ -9,6 +9,24 @@
     "type-detect": "1.0.0"
   },
   "main": "ft-scrolling-behavior.js",
+  "files": [
+    "*.html",
+    "*.js",
+    "*.make",
+    "*.png",
+    "*.svg",
+    ".yalc/",
+    "data/",
+    "demo/",
+    "test/",
+    ".babelrc",
+    ".eslintrc.json",
+    ".gitignore",
+    "LICENSE",
+    "Makefile",
+    "manifest.json",
+    "polymer.json"
+  ],
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
     "ft-element-demo": "file:.yalc/ft-element-demo"
