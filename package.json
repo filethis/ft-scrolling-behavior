@@ -1,6 +1,6 @@
 {
   "description": "A behavior that helps with scrolling of elements.",
-  "name": "ft-scrolling-behavior",
+  "name": "@filethis/ft-scrolling-behavior",
   "version": "1.0.19",
   "resolutions": {
     "inherits": "2.0.3",
@@ -15,7 +15,6 @@
     "*.make",
     "*.png",
     "*.svg",
-    ".yalc/",
     "data/",
     "demo/",
     "test/",
@@ -29,7 +28,7 @@
   ],
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
-    "ft-element-demo": "file:.yalc/ft-element-demo"
+    "@filethis/ft-element-demo": "^1.0.15"
   },
   "devDependencies": {
     "@polymer/iron-component-page": "^4.0.0",
